@@ -39,7 +39,7 @@ bot.on(message('text'), async (ctx) => {
   } catch (err)  {
     console.log(err)
     
-  ctx.reply('Hey there')
+  ctx.reply('We have some error')
   }
 })
 bot.launch().then(() => {
